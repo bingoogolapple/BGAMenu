@@ -1,0 +1,134 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="BGA" />
+
+    <style name="BGA.Theme" parent="@android:style/Theme.Light.NoTitleBar">
+    </style>
+
+    <style name="BGA.Tab"/>
+    <style name="BGA.Button"/>
+
+    <style name="BGA.Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="WrapMatch">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="MatchWrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="WrapWrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="MatchMatch">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="MatchAuto">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <style name="AutoMatch">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="WrapAuto">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <style name="AutoWrap">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="WrapMatchVertical" parent="@WrapMatch">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="WrapMatchHorizontal" parent="@WrapMatch">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="MatchWrapVertical" parent="@MatchWrap">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="MatchWrapHorizontal" parent="@MatchWrap">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="WrapWrapVertical" parent="@WrapWrap">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="WrapWrapHorizontal" parent="@WrapWrap">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="MatchMatchVertical" parent="@MatchMatch">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="MatchMatchHorizontal" parent="@MatchMatch">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="MatchAutoVertical" parent="@MatchAuto">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="MatchAutoHorizontal" parent="@MatchAuto">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="AutoMatchVertical" parent="@AutoMatch">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="AutoMatchHorizontal" parent="@MatchMatch">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="WrapAutoVertical" parent="@WrapAuto">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="WrapAutoHorizontal" parent="@WrapAuto">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="AutoWrapVertical" parent="@AutoWrap">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="AutoWrapHorizontal" parent="@AutoWrap">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="MatchOne">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+
+    <style name="OneMatch">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+</resources>

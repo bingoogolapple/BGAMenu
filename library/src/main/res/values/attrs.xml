@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BGAMenu">
+        <attr name="menuWidth" format="dimension"/>
+        <attr name="showMode" format="enum">
+            <enum name="layDown" value="0"/>
+            <enum name="pullOut" value="1"/>
+            <enum name="scale" value="2"/>
+        </attr>
+    </declare-styleable>
+
+</resources>

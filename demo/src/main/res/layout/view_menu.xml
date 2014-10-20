@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MatchMatchVertical"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        style="@style/MatchWrapHorizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            style="@style/WrapWrap"
+            android:src="@drawable/ic_launcher"
+            android:layout_margin="@dimen/size_small" />
+
+        <TextView
+            style="@style/WrapWrap"
+            android:textSize="@dimen/textSize_middle"
+            android:textColor="@android:color/white"
+            android:text="菜单一" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/MatchWrapHorizontal"
+        android:layout_marginTop="@dimen/size_small"
+        android:gravity="center_vertical">
+
+        <ImageView
+            style="@style/WrapWrap"
+            android:src="@drawable/ic_launcher"
+            android:layout_margin="@dimen/size_small" />
+
+        <TextView
+            style="@style/WrapWrap"
+            android:textSize="@dimen/textSize_middle"
+            android:textColor="@android:color/white"
+            android:text="菜单二" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/MatchWrapHorizontal"
+        android:layout_marginTop="@dimen/size_small"
+        android:gravity="center_vertical">
+
+        <ImageView
+            style="@style/WrapWrap"
+            android:src="@drawable/ic_launcher"
+            android:layout_margin="@dimen/size_small" />
+
+        <TextView
+            style="@style/WrapWrap"
+            android:textSize="@dimen/textSize_middle"
+            android:textColor="@android:color/white"
+            android:text="菜单三" />
+    </LinearLayout>
+</LinearLayout>

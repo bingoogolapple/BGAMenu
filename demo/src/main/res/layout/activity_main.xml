@@ -1,16 +1,45 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity">
+<cn.bingoogolapple.bgamenu.library.BGAMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/MatchMatch"
+    app:menuWidth="200dp"
+    app:showMode="layDown"
+    android:id="@+id/menu"
+    android:background="#5f00">
 
-    <TextView
-        android:text="@string/hello_world"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <LinearLayout style="@style/MatchMatchHorizontal" >
+        <!--菜单区域-->
+        <include layout="@layout/view_menu" />
+        <!--内容区域-->
+        <LinearLayout
+            style="@style/MatchMatchVertical"
+            android:background="@android:color/white">
 
-</RelativeLayout>
+            <Button
+                android:id="@+id/btn_main_toggle"
+                style="@style/WrapWrap"
+                android:onClick="toggleMenu"
+                android:background="#90f0"
+                android:text="菜单"
+                android:textSize="@dimen/textSize_middle"
+                android:paddingTop="@dimen/size_small"
+                android:paddingBottom="@dimen/size_small"
+                android:paddingLeft="@dimen/size_large"
+                android:paddingRight="@dimen/size_large"
+                android:textColor="@android:color/white" />
+
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/ic_launcher"
+                android:layout_width="300dp"
+                android:layout_height="300dp" />
+
+            <TextView
+                style="@style/WrapWrap"
+                android:text="QQ5.0菜单效果"
+                android:layout_gravity="center"
+                android:textSize="@dimen/textSize_large"
+                android:textColor="#9f00" />
+        </LinearLayout>
+    </LinearLayout>
+
+</cn.bingoogolapple.bgamenu.library.BGAMenu>
