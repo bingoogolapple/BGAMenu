@@ -7,16 +7,10 @@
 
 PS:谢谢鸿洋
 
-####效果图
+#### 效果图
 ![Image of BGAMenuScale](http://bingoshare.u.qiniudn.com/BGAMenuScale.gif)
 ![Image of BGAMenuPullOut](http://bingoshare.u.qiniudn.com/BGAMenuPullOut.gif)
 ![Image of BGAMenuLayDown](http://bingoshare.u.qiniudn.com/BGAMenuLayDown.gif)
 ![Image of BGAMenu](http://bingoshare.u.qiniudn.com/BGAMenu.gif)
 
->[下载Demo](http://bingoshare.u.qiniudn.com/BGAMenu.apk)
-
->Gradle
-
-```groovy
-
-```
+#### [下载Demo](http://bingoshare.u.qiniudn.com/BGAMenu.apk)
