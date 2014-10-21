@@ -1,8 +1,23 @@
 <resources>
-    <style name="BGA.Theme.Translucent" parent="@style/BGA.Theme">
+    <style name="BGA" />
+
+    <style name="BGA.Theme" parent="@android:style/Theme.Light.NoTitleBar">
+    </style>
+
+    <style name="BGA.Theme.Translucent">
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowAnimationStyle">@android:style/Animation</item>
         <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+
+    <style name="BGA.Button" parent="@style/WrapWrap">
+        <item name="android:background">#777</item>
+        <item name="android:textSize">@dimen/textSize_middle</item>
+        <item name="android:paddingTop">@dimen/size_small</item>
+        <item name="android:paddingBottom">@dimen/size_small</item>
+        <item name="android:paddingLeft">@dimen/size_large</item>
+        <item name="android:paddingRight">@dimen/size_large</item>
+        <item name="android:textColor">@android:color/white</item>
     </style>
 </resources>

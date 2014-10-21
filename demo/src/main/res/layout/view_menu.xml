@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    style="@style/MatchMatchVertical"
+    style="@style/MatchMatch.Vertical"
     android:gravity="center_vertical">
 
     <LinearLayout
-        style="@style/MatchWrapHorizontal"
+        style="@style/MatchWrap.Horizontal"
         android:gravity="center_vertical">
 
         <ImageView
@@ -20,7 +20,7 @@
     </LinearLayout>
 
     <LinearLayout
-        style="@style/MatchWrapHorizontal"
+        style="@style/MatchWrap.Horizontal"
         android:layout_marginTop="@dimen/size_small"
         android:gravity="center_vertical">
 
@@ -37,7 +37,7 @@
     </LinearLayout>
 
     <LinearLayout
-        style="@style/MatchWrapHorizontal"
+        style="@style/MatchWrap.Horizontal"
         android:layout_marginTop="@dimen/size_small"
         android:gravity="center_vertical">
 

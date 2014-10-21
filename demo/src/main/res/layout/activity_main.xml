@@ -1,45 +1,116 @@
-<cn.bingoogolapple.bgamenu.library.BGAMenu xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    style="@style/MatchMatch.Vertical"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    style="@style/MatchMatch"
-    app:menuWidth="200dp"
-    app:showMode="layDown"
-    android:id="@+id/menu"
-    android:background="#5f00">
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <LinearLayout style="@style/MatchMatchHorizontal" >
-        <!--菜单区域-->
-        <include layout="@layout/view_menu" />
-        <!--内容区域-->
-        <LinearLayout
-            style="@style/MatchMatchVertical"
-            android:background="@android:color/white">
+    <cn.bingoogolapple.bgamenu.library.BGAMenu
+        style="@style/MatchAuto"
+        app:menuWidth="200dp"
+        app:showMode="scale"
+        android:id="@+id/menu1"
+        android:background="#f55">
 
-            <Button
-                android:id="@+id/btn_main_toggle"
-                style="@style/WrapWrap"
-                android:onClick="toggleMenu"
-                android:background="#90f0"
-                android:text="菜单"
-                android:textSize="@dimen/textSize_middle"
-                android:paddingTop="@dimen/size_small"
-                android:paddingBottom="@dimen/size_small"
-                android:paddingLeft="@dimen/size_large"
-                android:paddingRight="@dimen/size_large"
-                android:textColor="@android:color/white" />
+        <LinearLayout style="@style/MatchMatch.Horizontal">
+            <!--菜单区域-->
+            <include layout="@layout/view_menu" />
+            <!--内容区域-->
+            <LinearLayout
+                style="@style/MatchMatch.Vertical"
+                android:background="@android:color/white">
 
-            <ImageView
-                android:layout_gravity="center"
-                android:src="@drawable/ic_launcher"
-                android:layout_width="300dp"
-                android:layout_height="300dp" />
+                <Button
+                    style="@style/BGA.Button"
+                    android:onClick="toggleMenu1"
+                    android:text="菜单" />
 
-            <TextView
-                style="@style/WrapWrap"
-                android:text="QQ5.0菜单效果"
-                android:layout_gravity="center"
-                android:textSize="@dimen/textSize_large"
-                android:textColor="#9f00" />
+                <ImageView
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_launcher"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+
+                <TextView
+                    style="@style/WrapWrap"
+                    android:text="Scale效果"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/textSize_large"
+                    android:textColor="#9f00" />
+            </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
 
-</cn.bingoogolapple.bgamenu.library.BGAMenu>
+    </cn.bingoogolapple.bgamenu.library.BGAMenu>
+
+    <cn.bingoogolapple.bgamenu.library.BGAMenu
+        android:id="@+id/menu2"
+        style="@style/MatchAuto"
+        app:menuWidth="200dp"
+        app:showMode="layDown"
+        android:background="#5f5">
+
+        <LinearLayout style="@style/MatchMatch.Horizontal">
+            <!--菜单区域-->
+            <include layout="@layout/view_menu" />
+            <!--内容区域-->
+            <LinearLayout
+                style="@style/MatchMatch.Vertical"
+                android:background="@android:color/white">
+
+                <Button
+                    style="@style/BGA.Button"
+                    android:onClick="toggleMenu2"
+                    android:text="菜单" />
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_launcher"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+
+                <TextView
+                    style="@style/WrapWrap"
+                    android:text="LayDown效果"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/textSize_large"
+                    android:textColor="#9f00" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </cn.bingoogolapple.bgamenu.library.BGAMenu>
+
+    <cn.bingoogolapple.bgamenu.library.BGAMenu
+        android:id="@+id/menu3"
+        style="@style/MatchAuto"
+        app:menuWidth="200dp"
+        app:showMode="pullOut"
+        android:background="#55f">
+
+        <LinearLayout style="@style/MatchMatch.Horizontal">
+            <!--菜单区域-->
+            <include layout="@layout/view_menu" />
+            <!--内容区域-->
+            <LinearLayout
+                style="@style/MatchMatch.Vertical"
+                android:background="@android:color/white">
+
+                <Button
+                    style="@style/BGA.Button"
+                    android:onClick="toggleMenu3"
+                    android:text="菜单" />
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_launcher"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+
+                <TextView
+                    style="@style/WrapWrap"
+                    android:text="PullOut效果"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/textSize_large"
+                    android:textColor="#9f00" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </cn.bingoogolapple.bgamenu.library.BGAMenu>
+</LinearLayout>

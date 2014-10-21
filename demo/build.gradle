@@ -21,6 +21,6 @@ android {
 
 dependencies {
     compile 'com.android.support:support-v4:20.+'
-    compile 'cn.bingoogolapple.loon:library:1.0.0@aar'
+    compile 'cn.bingoogolapple.loon:library:1.1.0@aar'
     compile project(':library')
 }
