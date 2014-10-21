@@ -14,3 +14,5 @@ PS:谢谢鸿洋
 ![Image of BGAMenu](http://bingoshare.u.qiniudn.com/BGAMenu.gif)
 
 #### [下载Demo](http://bingoshare.u.qiniudn.com/BGAMenu.apk)
+
+##### 详细用法请查看[demo](https://github.com/bingoogolapple/BGAMenu/tree/master/demo):feet:
