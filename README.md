@@ -5,7 +5,7 @@
 
 主要功能：支持LayDown, PullOut, Scale三种模式的滑动菜单
 
-PS:谢谢鸿洋
+PS:根据慕课网视频教程改的，加上一些可配置选项http://www.imooc.com/learn/211 谢谢鸿洋
 
 #### 效果图
 ![Image of BGAMenuScale](http://bingoshare.u.qiniudn.com/BGAMenuScale.gif)
