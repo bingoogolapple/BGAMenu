@@ -15,4 +15,12 @@ PS:该库是根据慕课网视频教程改的，自己加上一些可配置选�
 
 #### [下载Demo](http://bingoshare.u.qiniudn.com/BGAMenu.apk)
 
+>Gradle
+
+```groovy
+dependencies {
+    compile 'cn.bingoogolapple.bgamenu:library:1.0.0@aar'
+}
+```
+
 ##### 详细用法请查看[demo](https://github.com/bingoogolapple/BGAMenu/tree/master/demo):feet:
