@@ -19,7 +19,7 @@ PS:该库是根据慕课网视频教程改的，自己加上一些可配置选�
 
 ```groovy
 dependencies {
-    compile 'cn.bingoogolapple.bgamenu:library:1.0.0@aar'
+    compile 'cn.bingoogolapple:bga-menu:1.0.0@aar'
 }
 ```
 

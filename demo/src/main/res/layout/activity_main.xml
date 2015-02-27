@@ -3,10 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <cn.bingoogolapple.bgamenu.library.BGAMenu
+    <cn.bingoogolapple.bgamenu.BGAMenu
         style="@style/MatchAuto"
-        app:menuWidth="200dp"
-        app:showMode="scale"
+        app:bgamenu_menuWidth="200dp"
+        app:bgamenu_showMode="scale"
         android:id="@+id/menu1"
         android:background="#f55">
 
@@ -26,25 +26,25 @@
                 <ImageView
                     android:layout_gravity="center"
                     android:src="@drawable/ic_launcher"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp" />
+                    android:layout_width="80dp"
+                    android:layout_height="80dp" />
 
                 <TextView
                     style="@style/WrapWrap"
                     android:text="Scale效果"
                     android:layout_gravity="center"
-                    android:textSize="@dimen/textSize_large"
+                    android:textSize="@dimen/textSize_middle"
                     android:textColor="#9f00" />
             </LinearLayout>
         </LinearLayout>
 
-    </cn.bingoogolapple.bgamenu.library.BGAMenu>
+    </cn.bingoogolapple.bgamenu.BGAMenu>
 
-    <cn.bingoogolapple.bgamenu.library.BGAMenu
+    <cn.bingoogolapple.bgamenu.BGAMenu
         android:id="@+id/menu2"
         style="@style/MatchAuto"
-        app:menuWidth="200dp"
-        app:showMode="layDown"
+        app:bgamenu_menuWidth="200dp"
+        app:bgamenu_showMode="layDown"
         android:background="#5f5">
 
         <LinearLayout style="@style/MatchMatch.Horizontal">
@@ -63,25 +63,25 @@
                 <ImageView
                     android:layout_gravity="center"
                     android:src="@drawable/ic_launcher"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp" />
+                    android:layout_width="80dp"
+                    android:layout_height="80dp" />
 
                 <TextView
                     style="@style/WrapWrap"
                     android:text="LayDown效果"
                     android:layout_gravity="center"
-                    android:textSize="@dimen/textSize_large"
+                    android:textSize="@dimen/textSize_middle"
                     android:textColor="#9f00" />
             </LinearLayout>
         </LinearLayout>
 
-    </cn.bingoogolapple.bgamenu.library.BGAMenu>
+    </cn.bingoogolapple.bgamenu.BGAMenu>
 
-    <cn.bingoogolapple.bgamenu.library.BGAMenu
+    <cn.bingoogolapple.bgamenu.BGAMenu
         android:id="@+id/menu3"
         style="@style/MatchAuto"
-        app:menuWidth="200dp"
-        app:showMode="pullOut"
+        app:bgamenu_menuWidth="200dp"
+        app:bgamenu_showMode="pullOut"
         android:background="#55f">
 
         <LinearLayout style="@style/MatchMatch.Horizontal">
@@ -100,17 +100,17 @@
                 <ImageView
                     android:layout_gravity="center"
                     android:src="@drawable/ic_launcher"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp" />
+                    android:layout_width="80dp"
+                    android:layout_height="80dp" />
 
                 <TextView
                     style="@style/WrapWrap"
                     android:text="PullOut效果"
                     android:layout_gravity="center"
-                    android:textSize="@dimen/textSize_large"
+                    android:textSize="@dimen/textSize_middle"
                     android:textColor="#9f00" />
             </LinearLayout>
         </LinearLayout>
 
-    </cn.bingoogolapple.bgamenu.library.BGAMenu>
+    </cn.bingoogolapple.bgamenu.BGAMenu>
 </LinearLayout>

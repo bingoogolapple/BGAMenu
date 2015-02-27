@@ -1,4 +1,4 @@
-package cn.bingoogolapple.bgamenu.library;
+package cn.bingoogolapple.bgamenu;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -12,11 +12,7 @@ import android.widget.HorizontalScrollView;
 
 import com.nineoldandroids.view.ViewHelper;
 
-/**
- * Created by bingoogolapple on 14/10/20.
- */
 public class BGAMenu extends HorizontalScrollView {
-    private static final String TAG = BGAMenu.class.getName();
     private ViewGroup mWrapper;
     private View mMenu;
     private View mContent;
@@ -48,10 +44,10 @@ public class BGAMenu extends HorizontalScrollView {
         final int N = typedArray.getIndexCount();
         for (int i = 0; i < N; i++) {
             int attr = typedArray.getIndex(i);
-            if (R.styleable.BGAMenu_showMode == attr) {
+            if (R.styleable.BGAMenu_bgamenu_showMode == attr) {
                 int ordinal = typedArray.getInt(attr, ShowMode.PullOut.ordinal());
                 mShowMode = ShowMode.values()[ordinal];
-            } else if (R.styleable.BGAMenu_menuWidth == attr) {
+            } else if (R.styleable.BGAMenu_bgamenu_menuWidth == attr) {
                 /**
                  * getDimension和getDimensionPixelOffset的功能差不多,都是获取某个dimen的值,如果是dp或sp的单位,将其乘以density,如果是px,则不乘;两个函数的区别是一个返回float,一个返回int. getDimensionPixelSize则不管写的是dp还是sp还是px,都会乘以denstiy.
                  */

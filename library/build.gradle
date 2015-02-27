@@ -1,14 +1,12 @@
-
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion Integer.parseInt(project.ANDROID_BUILD_SDK_VERSION)
-    buildToolsVersion project.ANDROID_BUILD_TOOLS_VERSION
+    compileSdkVersion ANDROID_BUILD_SDK_VERSION as int
+    buildToolsVersion ANDROID_BUILD_TOOLS_VERSION
 
     defaultConfig {
-        applicationId "cn.bingoogolapple.bgamenu.library"
-        minSdkVersion Integer.parseInt(project.ANDROID_BUILD_MIN_SDK_VERSION)
-        targetSdkVersion Integer.parseInt(project.ANDROID_BUILD_TARGET_SDK_VERSION)
+        minSdkVersion ANDROID_BUILD_MIN_SDK_VERSION as int
+        targetSdkVersion ANDROID_BUILD_TARGET_SDK_VERSION as int
     }
 }
 
@@ -16,4 +14,6 @@ dependencies {
     compile 'com.nineoldandroids:library:2.4.0'
 }
 
-apply from: './gradle-mvn-push.gradle'
+apply from: 'android-artifacts.gradle'
+apply from: 'central-publish.gradle'
+apply from: 'bintray-publish.gradle'

@@ -1,28 +1,29 @@
 package cn.bingoogolapple.bgamenu.demo.ui.activity;
 
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
+import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 
+import cn.bingoogolapple.bgaannotation.BGAA;
+import cn.bingoogolapple.bgaannotation.BGAALayout;
+import cn.bingoogolapple.bgaannotation.BGAAView;
+import cn.bingoogolapple.bgamenu.BGAMenu;
 import cn.bingoogolapple.bgamenu.demo.R;
-import cn.bingoogolapple.bgamenu.library.BGAMenu;
-import cn.bingoogolapple.loon.library.Loon;
-import cn.bingoogolapple.loon.library.LoonLayout;
-import cn.bingoogolapple.loon.library.LoonView;
 
-@LoonLayout(id = R.layout.activity_main)
-public class MainActivity extends FragmentActivity {
-    @LoonView(id = R.id.menu1)
+
+@BGAALayout(R.layout.activity_main)
+public class MainActivity extends ActionBarActivity {
+    @BGAAView(R.id.menu1)
     private BGAMenu mMenu1;
-    @LoonView(id = R.id.menu2)
+    @BGAAView(R.id.menu2)
     private BGAMenu mMenu2;
-    @LoonView(id = R.id.menu3)
+    @BGAAView(R.id.menu3)
     private BGAMenu mMenu3;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Loon.injectView2Activity(this);
+        BGAA.injectView2Activity(this);
     }
 
     public void toggleMenu1(View view) {
